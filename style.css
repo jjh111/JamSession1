@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    background-color: black;
+    overflow-x: hidden;
+
+}
+.container {
+    position: absolute;
+    height:100vh;
+    width:100vw;
+    background-color: black;
+}
+img {
+  max-width: 100%;
+    max-height: 100%;
+}
+
+
+a {
+color: #FFFFFF;
+}
+
+  #JamSessionModel{
+    position: absolute;
+    height: 100%;
+    width: auto;
+  }
+
+.sig {
+  position: absolute;
+  height: auto;
+  width: calc(55% - 33vw);
+  bottom: 0vh;
+  left: 44%;
+  z-index: 55;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.2vw;
+  text-align: center;
+  color: white;
+}
+.models{
+  max-width: 100%;
+    max-height: 100%;
+}
+.sketchfab-embed-wrapper{
+  position:absolute;
+width: 100vw;
+height: 80vh;
+  left:0;
+  right:0;
+  z-index: 0;
+  background-color: black;
+}

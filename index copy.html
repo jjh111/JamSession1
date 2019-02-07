@@ -1,0 +1,95 @@
+<!-- Copyright (C) 2018 John Hanacek jhanacek.net
+-->
+<!DOCTYPE html><html><head>
+  <meta charset="utf-8">
+
+<title>Galaxy Cat</title>
+<meta name="jhanacek.net" content="SitePoint">
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+
+</head>
+<script src="prismatic.min.js"></script>
+<div class="container">
+  <script type="text/javascript">
+           <!--
+           var x = document.getElementById("astro2d");
+                if (window.mlWorld) {
+                x.style.visibility = "none";
+              }
+
+              else{
+                x.style.visibility = "block";
+               }
+           //-->
+        </script>
+<div class="astro">
+<<<<<<< HEAD
+  <img id="astro2d" src="images/jhreg.png">
+=======
+  <div id="astro2d" visibility:block>
+  <img src="images/jhreg.png">
+</div>
+>>>>>>> 52a6d9b50cd8f05d2cc8007d1633a0e077b06337
+  <ml-quad
+           id="astro3d"
+           src="images/jhreg.png"
+          style="width: 22%; height: 22%; position: absolute; right: 22%; bottom: 30%;"
+           extractable="true"
+           extracted-scale="2"
+           color="rgba(255, 255, 255, 0.99)"
+           unbounded="true"
+           z-offset="200">
+         </ml-quad>
+</div>
+<div class="galcat">
+  <img src="images/galcat.png">
+  <ml-quad
+           id="cat3d"
+           src="images/galcat.png"
+           style="width: 100%; height: 100%; position: absolute; left: -4%; bottom: 0%;"
+           extracted-scale="3"
+           color="rgba(255, 255, 255, 0.99)"
+           unbounded="true"
+           z-offset="500">
+         </ml-quad>
+</div>
+<div class="galaxy">
+  <img src="images/galaxy.png">
+  <ml-quad
+           id="gal3d"
+           src="images/galaxy.png"
+           extractable="true"
+           style="width: 111%; height: 111%; position: absolute; left: 10%; bottom: 40%;"
+           prism-rotation="0 0.785398 0"
+           extracted-scale="7"
+           color="rgba(255, 255, 255, 0.99)"
+           unbounded="true"
+           z-offset="300">
+         </ml-quad>
+</div>
+<div class="bg">
+  <img src="images/vdb31AdamBlock.jpg">
+</div>
+
+<script>
+if (window.mlWorld) {
+document.getElementById("astro2d").style.visibility = "hidden";
+}
+</script>
+
+<div class="sig">
+<p>
+<a href="https://www.johnhanacek.net" ><img src="images/jhsigfrmpaper.png"></a>
+<a href="https://www.johnhanacek.net" >jhanacek.net</a>
+</p>
+</div>
+
+
+
+</div>
+
+
+</body>
+</html>
