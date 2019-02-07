@@ -42,7 +42,7 @@ color: #FFFFFF;
 .linkZone {
   position: absolute;
   height: auto;
-  width: calc(55% - 33vw);
+  width: calc(55% - 43vw);
   bottom: 0vh;
   left: 1%;
   z-index: 55;
@@ -54,7 +54,7 @@ color: #FFFFFF;
 .linkHolo {
   position: absolute;
   height: auto;
-  width: calc(55% - 33vw);
+  width: calc(55% - 43vw);
   bottom: 0vh;
   left: 20%;
   z-index: 55;
