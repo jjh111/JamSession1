@@ -23,8 +23,8 @@ color: #FFFFFF;
 
   #JamSessionModel{
     position: absolute;
-    height: 100%;
-    width: auto;
+    height: 200%;
+    width: 100%;
   }
 
 .sig {
